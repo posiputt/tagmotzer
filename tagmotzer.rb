@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'id3lib'
 
-allfiles = Dir["./tagmotzer/**/*"]
+allfiles = Dir["./files/**/*"]
 
 allfiles.each do |foo|
   if File.extname(foo) == ".mp3"
